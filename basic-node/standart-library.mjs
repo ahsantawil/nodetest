@@ -1,6 +1,5 @@
-console.log("Hello World");
+import os from 'os';
 
-const os = require('os');
 
 console.log(os.platform());
 console.table(os.cpus());
