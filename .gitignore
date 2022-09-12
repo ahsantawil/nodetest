@@ -2,3 +2,5 @@
 /npm/package-lock.json
 /npm/export.log
 /npm/hello.log
+/unit-test/node_modules
+/unit-test/package-lock.json
