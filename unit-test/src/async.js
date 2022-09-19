@@ -10,4 +10,7 @@ export const sayHello = (name) => {
     });
 };
 
-sayHello('Ahsan')
+export const getBalance = async (name, from) => {
+    const balance = await from();
+    return {name : name, balance: balance};
+}
