@@ -5,3 +5,7 @@
 /unit-test/node_modules
 /unit-test/package-lock.json
 /unit-test/coverage
+
+/logging/node_modules
+/logging/package-lock.json
+/logging/coverage
