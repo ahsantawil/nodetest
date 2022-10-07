@@ -1,0 +1,48 @@
+{
+    "openapi" : "3.0.3",
+    "info": {
+        "title": "Todolist Restful API",
+        "description": "OpenAPI test",
+        "version": "1",
+        "contact": {
+            "name": "Ahsan Ta'wil",
+            "email": "ahsan.tawil07@gmail.com",
+            "url": "ahsantawil.com"
+        },
+        "license": {
+            "name": "MIT 2.1",
+            "url": "https://www.mit.com/license/2.1"
+        }
+    },
+    "servers": [
+        {
+            "url": "https://{environment}.ahsantawil.com/api/v1",
+            "description": "Test Todolist resfulAPI",
+            "variables": {
+                    "environment" : {
+                        "default": "dev",
+                        "description": "Server Environment",
+                        "enum": [
+                            "dev",
+                            "qa",
+                            "prod"
+                        ]
+                    }
+            }
+        }
+    ],
+    "externalDocs": {
+        "description": "Website Citra sanxing Indonesia",
+        "url": "https://citrasanxing.co.id"
+    },
+    "paths": {
+        "/todolist" : {
+            "get" : {},
+            "post" :{}
+        },
+        "/todolist/{todolistId}":{
+            "delete" : {},
+            "put" : {}
+        }
+    }
+}
